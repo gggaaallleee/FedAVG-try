@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader
 import torch.optim as optim
 from torchvision import datasets, transforms
 
-from utils.options import args_parser
+from util.options import args_parser
 from models.Nets import MLP, CNNMnist, CNNCifar
 
 
